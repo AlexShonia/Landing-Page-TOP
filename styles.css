@@ -1,0 +1,133 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    margin:0;
+}
+.nav {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px ;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px ;
+}
+.logo {
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    gap: 24px;
+}
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 400px;
+    padding:0 150px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.subtext {
+    width: 500px;
+    padding-bottom: 16px;
+}
+.h2 {
+    background-color: gray;
+    padding: 100px 120px;
+}
+.big{
+    font-size: 48px;
+    font-weight: bold;
+    width: 400px;
+}
+button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color:#F9FAF8;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #3882F6;
+}
+.infohd {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 300px;
+}
+.roundedsq {
+    height: 175px;
+    width: 175px;
+    border: 5px solid  #3882F6;
+    border-radius: 16px;
+}
+.info div {
+    width: 175px;
+    height: 175px;
+    text-align: center;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.quote .quotesiz {
+    width: 800px;
+    font-weight: ligther;
+}
+.author {
+    font-size: 24px;
+    align-self: center;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 125px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+.action button {
+    border-color:#E5E7EB;
+}
+.action strong {
+    font-size: 24px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
